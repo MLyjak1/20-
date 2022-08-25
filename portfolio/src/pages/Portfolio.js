@@ -1,10 +1,16 @@
 import React from 'react';
 import Card from '../components/Card';
 
-const divStyles = {
+const styles = {
+    innerDiv:{
     display: 'flex',
     justifyContent: 'space-around',
-    backgroundColor: 'Orange',
+    flexwrap: 'wrap'
+    },
+    outerDiv: {
+        width: "100%",
+        height: "80vh"
+    }   
 }
 
 const Portfolio= () => {
@@ -57,9 +63,9 @@ const Portfolio= () => {
 
     ]
     return (
-        <div>
+        <div style={styles.outerDiv} id="outerDiv">
             <h1>My Project Cards</h1>
-            <div style={divStyles}>
+            <div style={styles.innerDiv} id="innerDiv">
                 {projectArray.map(({id, name, desc, img}) => {
                     return <Card key={id} name={name} desc={desc} img={img}/>
                 })};

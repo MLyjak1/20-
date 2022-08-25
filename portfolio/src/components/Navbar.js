@@ -1,7 +1,10 @@
 import React from 'react';
 
+
 const Navbar = ({ handlePageChange, currentPage }) => {
     return (
+        <div>
+        
         <ul className="nav nav-tabs">
           <li className="nav-item">
             <a
@@ -35,6 +38,7 @@ const Navbar = ({ handlePageChange, currentPage }) => {
             </a>
           </li>
         </ul>
+        </div>
       );
     }
     
