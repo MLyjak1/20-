@@ -4,7 +4,7 @@ import Card from '../components/Card';
 const divStyles = {
     display: 'flex',
     justifyContent: 'space-around',
-
+    backgroundColor: 'Orange',
 }
 
 const Portfolio= () => {
@@ -12,38 +12,47 @@ const Portfolio= () => {
         {
             id: 1,
             name: 'PW Gen',
-            desc: 'fdsafdsafd',
+            desc: 'a Random Password Generator',
             tech: ['JS', 'HTML', 'CSS', 'JSON'],
-            img: require('../imgs/logo192.png'),
-            getLink: '',
-            deployLink: ''
+            img: require('../imgs/Screenshot.jpg'),
+            gitLink: 'https://github.com/MLyjak1/Challenge_3',
+            deployLink: 'https://mlyjak1.github.io/Challenge_3/'
         },
         {
             id: 2,
-            name: 'other1 Gen',
-            desc: 'fdsafdsafd',
+            name: 'Planner',
+            desc: 'A Daily Schedule Maker',
             tech: ['JS', 'HTML', 'CSS', 'JSON'],
-            img: '',
-            getLink: '',
-            deployLink: ''
+            img: require('../imgs/Scheduler.png'),
+            gitLink: 'https://github.com/MLyjak1/Work_Daily_Planner',
+            deployLink: 'https://MLyjak1.github.io/Work_Daily_Planner/'
         },
         {
             id: 3,
-            name: 'that Gen',
-            desc: 'fdsafdsafd',
+            name: 'Note Taker',
+            desc: 'A Note Taking site',
             tech: ['JS', 'HTML', 'CSS', 'JSON'],
-            img: '',
-            getLink: '',
-            deployLink: ''
+            img: require('../imgs/Note-Taker.png'),
+            gitLink: 'https://github.com/MLyjak1/11-Notebook',
+            deployLink: 'https://mlyjak1.github.io/11-Notebook/'
         },
         {
             id: 4,
-            name: 'fdsahtreah Gen',
-            desc: 'fdsafdsafd',
+            name: 'Concert Finder',
+            desc: 'Easily find concerts in any city',
             tech: ['JS', 'HTML', 'CSS', 'JSON'],
-            img: '',
-            getLink: '',
-            deployLink: ''
+            img: require('../imgs/G-10 Screenshot Map.png'),
+            gitLink: 'https://github.com/MLyjak1/G-10_Musical_Chairs',
+            deployLink: 'https://mLyjak1.github.io/G-10_Musical_Chairs/'
+        },
+        {
+            id: 5,
+            name: '360 Degree',
+            desc: 'Rate your College Degree',
+            tech: ['JS', 'HTML', 'CSS', 'JSON'],
+            img: require('../imgs/360deg screenshot.png'),
+            gitLink: 'https://github.com/MLyjak1/360_Degrees',
+            deployLink: 'https://threesixtydegrees.herokuapp.com/'
         },
 
     ]

@@ -4,6 +4,10 @@ import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 
+const homeStyles = {
+  
+}
+
 export default function App() {
   const [currentPage, setCurrentPage] = useState('Home');
 
